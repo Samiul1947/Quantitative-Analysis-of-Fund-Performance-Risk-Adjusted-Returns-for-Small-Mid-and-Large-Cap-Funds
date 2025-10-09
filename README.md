@@ -15,7 +15,7 @@ I only considered the **closing price of each day**, with a total of **994 tradi
 
 ## Data Visualization:
 
-![image](https://github.com/Samiul1947/Quantitative-Analysis-of-Fund-Performance-Risk-Adjusted-Returns-for-Small-Mid-and-Large-Cap-Funds/<img width="1013" height="543" alt="340003426-44a19175-4247-4018-a157-7e729e490031_movement-of-3funds" src="https://github.com/user-attachments/assets/069e41f9-8d86-4917-b30e-763fa7c45d4e" />
+<img width="1013" height="543" alt="340003426-44a19175-4247-4018-a157-7e729e490031_movement-of-3funds" src="https://github.com/user-attachments/assets/069e41f9-8d86-4917-b30e-763fa7c45d4e" />
 
 
 **This graph presents their performance over 4 years.**
