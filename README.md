@@ -10,7 +10,7 @@ As we know, in 2020 due to COVID-19 and in 2022 due to the Russia-Ukraine war, t
 
 My main motive was to draw a **quantitative view** of how each of these funds reacted during that period of time and, in the end, which gave better returns when volatility was taken into account.  
 
-Starting with the data source, I collected all four years of data for small, mid, and large cap funds from [BSE India Index Archive]( https://www.bseindia.com/Indices/IndexArchiveData.html)  
+Starting with the data source, I collected all four years of data for small, mid, and large cap funds from  https://www.bseindia.com/Indices/IndexArchiveData.html  
 I only considered the **closing price of each day**, with a total of **994 trading days**.
 
 ## Data Visualization:
