@@ -2,8 +2,6 @@
 
 This project analyzes the performance of small, mid, and large cap funds from 2020 to 2023. Using linear regression, it calculates volatility and risk-adjusted returns based on closing indices data, providing insights into each fund's risk and performance.  
 
-**Project by [Samiul Gazi](https://github.com/Samiul1947)**
-
 ## Objectives:
 
 As we know, in 2020 due to COVID-19 and in 2022 due to the Russia-Ukraine war, the Indian stock market went through a deep red phase. It fell sharply. Although it later recovered, as a stock market enthusiast, I decided to analyze the performance of small, mid, and large cap funds from the start of 2020 to the end of 2023.  
@@ -15,36 +13,45 @@ I only considered the **closing price of each day**, with a total of **994 tradi
 
 ## Data Visualization:
 
-<img width="1013" height="543" alt="340003426-44a19175-4247-4018-a157-7e729e490031_movement-of-3funds" src="https://github.com/user-attachments/assets/069e41f9-8d86-4917-b30e-763fa7c45d4e" />
-
+<img width="1453" height="722" alt="2025-10-10 (3)" src="https://github.com/user-attachments/assets/7fcbdb23-08b1-4b65-8eee-dfccd3d5c17e" />
 
 **This graph presents their performance over 4 years.**
 
 ## Evaluating Rewards using Linear Regression:
 
+
 Then I used the **Linear Regression** method to quantify their returns/rewards over 4 years.
 
-![image](https://github.com/Samiul1947/Quantitative-Analysis-of-Fund-Performance-Risk-Adjusted-Returns-for-Small-Mid-and-Large-Cap-Funds/assets/162815966/d56d38ca-4409-4ba5-82f4-c1af22b7eac2)  
-![image](https://github.com/Samiul1947/Quantitative-Analysis-of-Fund-Performance-Risk-Adjusted-Returns-for-Small-Mid-and-Large-Cap-Funds/assets/162815966/f25b5196-c83e-474f-ae04-2a864eda505a)
+
+<img width="502" height="119" alt="2025-10-10 (1)" src="https://github.com/user-attachments/assets/7bdf3d2e-9ad8-4834-a33b-2f67c6cf2103" />
+
+<img width="460" height="128" alt="2025-10-10 (2)" src="https://github.com/user-attachments/assets/ee89f505-7c2a-4e98-baea-2230c213137f" />
+
 
 **Here I obtained the intercept parameters and coefficients for all the funds, where each fund has been taken as both an independent and dependent variable.**
 
-![image](https://github.com/Samiul1947/Quantitative-Analysis-of-Fund-Performance-Risk-Adjusted-Returns-for-Small-Mid-and-Large-Cap-Funds/assets/162815966/ddaf6b6f-27c1-45a3-bd2c-69db7e9fc00e)  
-![image](https://github.com/Samiul1947/Quantitative-Analysis-of-Fund-Performance-Risk-Adjusted-Returns-for-Small-Mid-and-Large-Cap-Funds/assets/162815966/c2802d32-057d-44dc-acf9-a572243137ea)
+
+<img width="706" height="177" alt="2025-10-10 (4)" src="https://github.com/user-attachments/assets/967fa236-3b52-4d1c-8aba-9f41c92bb849" />
+
+
+<img width="693" height="185" alt="2025-10-10 (7)" src="https://github.com/user-attachments/assets/0e2fa1ca-d15a-4329-9e8e-c4af1f49d71b" />
+
 
 **These are the residuals for each case, representing how much the predicted value of each fund deviates from the actual value.**
 
-![image](https://github.com/Samiul1947/Quantitative-Analysis-of-Fund-Performance-Risk-Adjusted-Returns-for-Small-Mid-and-Large-Cap-Funds/assets/162815966/a49934f7-e980-486c-be19-cec260b9ade3)
+
+<img width="621" height="152" alt="2025-10-10 (8)" src="https://github.com/user-attachments/assets/c6e7d02d-dc47-4869-8075-b7ab8e734b95" />
 
 **This shows the correlation between funds.**
 
-![image](https://github.com/Samiul1947/Quantitative-Analysis-of-Fund-Performance-Risk-Adjusted-Returns-for-Small-Mid-and-Large-Cap-Funds/assets/162815966/d985a943-3f4c-404d-acaf-e15aaed57a62)
+<img width="219" height="141" alt="2025-10-10 (5)" src="https://github.com/user-attachments/assets/c58627a6-5d67-4d25-a3cb-082518ed5368" />
 
 **This is the reward of each of the funds, obtained from the sum product of residual percentage and correlation.**
 
 ## Volatility Measurement:
 
-![image](https://github.com/Samiul1947/Quantitative-Analysis-of-Fund-Performance-Risk-Adjusted-Returns-for-Small-Mid-and-Large-Cap-Funds/assets/162815966/fc63d1e4-8a83-4219-9bf5-969f6d54f2be)
+<img width="606" height="161" alt="2025-10-10 (9)" src="https://github.com/user-attachments/assets/e276d0b1-d936-4140-9ed7-d797a038ed84" />
+
 
 **This shows the volatility of the three funds.**
 
@@ -54,7 +61,9 @@ Finally, I multiplied the square root of 252 (number of trading days in a year) 
 
 ## Evaluating Risk-Adjusted Reward of All Funds:
 
-![image](https://github.com/Samiul1947/Quantitative-Analysis-of-Fund-Performance-Risk-Adjusted-Returns-for-Small-Mid-and-Large-Cap-Funds/assets/162815966/0746c841-4837-4dfd-aae5-20e70561a559)
+
+<img width="526" height="170" alt="2025-10-10 (6)" src="https://github.com/user-attachments/assets/bd9a2f78-89a6-44b4-a0f7-cec078d1a1a9" />
+
 
 **This graph shows the risk-adjusted rewards of small, mid, and large cap funds.**
 
